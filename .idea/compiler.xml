@@ -19,7 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-boot-parent" target="1.6" />
+      <module name="spring-boot-parent" target="1.8" />
       <module name="spring-cloud-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
