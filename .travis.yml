@@ -1,0 +1,17 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+script: mvn clean cobertura:cobertura verify --settings .travis/settings.xml
+
+after_success:
+  - mvn coveralls:report --settings .travis/settings.xml
+  - chmod -R 777 .travis/deploy-to-sonatype.sh
+  - .travis/deploy-to-sonatype.sh
+
+notifications:
+  email:
+    - admin@ruijc.com
+  on_success: never
+  on_failure: always

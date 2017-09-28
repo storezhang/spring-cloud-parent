@@ -6,7 +6,7 @@
 
     <groupId>com.ruijc</groupId>
     <artifactId>spring-cloud-parent</artifactId>
-    <version>Dalston.SR3</version>
+    <version>Dalston.SR3.2</version>
     <packaging>pom</packaging>
     <description>Spring云计算（微服务）基础配置项目。</description>
 
@@ -82,6 +82,17 @@
         <resources>
             <resource>
                 <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                    <include>**/*.html</include>
+                    <include>**/*.ftl</include>
+                    <include>**/*.yml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.properties</include>
                     <include>**/*.xml</include>

@@ -2,6 +2,18 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/id" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/spring-boot-starter-fastjson" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/spring-boot-starter-http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/spring-boot-starter-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/spring-boot-starter-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/spring-boot-starter-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/structure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/task" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../utils/zip" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

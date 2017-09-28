@@ -1,0 +1,38 @@
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <localRepository/>
+    <interactiveMode/>
+    <usePluginRegistry/>
+    <offline/>
+    <pluginGroups>
+        <pluginGroup>org.eluder.coveralls</pluginGroup>
+    </pluginGroups>
+
+    <profiles>
+        <profile>
+            <id>gpg-config</id>
+            <properties>
+                <gpg.executable>gpg</gpg.executable>
+                <gpg.passphrase>${env.GPG_PASSPHRASE}</gpg.passphrase>
+            </properties>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>gpg-config</activeProfile>
+    </activeProfiles>
+
+    <servers>
+        <server>
+            <id>sonatype-nexus-snapshots</id>
+            <username>kAUOPkVk</username>
+            <password>5ew8JurYTKvP9nAPrXeB4paS0SiRCj6hM+kM/FamoKVE</password>
+        </server>
+        <server>
+            <id>sonatype-nexus-staging</id>
+            <username>kAUOPkVk</username>
+            <password>5ew8JurYTKvP9nAPrXeB4paS0SiRCj6hM+kM/FamoKVE</password>
+        </server>
+    </servers>
+    <mirrors/>
+    <proxies/>
+</settings>
